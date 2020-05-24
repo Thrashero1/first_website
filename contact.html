@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contct sheet</title>
+</head>
+
+<body>
+    <h3 style="background-color:#00F003;">My contact info</h3>
+    <p><strong>Address</strong></p>
+    <p>My Flat</p>
+    <p>My street</p>
+    <p>Hamrun</p>
+    <p>Tel: 77889900</p>
+    <!--The action is what should hppen if you press submit, in this case it opens up an email client-->
+    <!--The enctype states that the text we are sending is in plain form-->
+    <form action="mailto:maniadave@gmail.com" enctype="text/plain" method="POST">
+        <label for="get_name">Your name:</label><br>
+        <input id="get_name" type="text" name="yourName"><br><br>
+        <label for="get_email">Your Email:</label><br>
+        <input id="get_email" type="email" name="yourEmail"><br><br>
+        <label for="get_msg">Your Message:</label><br>
+        <textarea name="yourMessage" id="get_message" cols="50" rows="7"></textarea><br><br>
+        <input type="submit"><br><br>
+        <label for="check_mail">Send a copy to my email</label>
+        <input type="checkbox" name="" id="check_mail">
+    </form>
+</body>
+
+</html>
