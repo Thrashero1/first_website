@@ -1,0 +1,32 @@
+h1 {
+    color: #27496d;
+    font: outline;
+    font-style: italic;
+    font-family: fantasy;
+    text-shadow: grey;
+}
+
+h3 {
+    color: #27496d;
+    text-align: center;
+}
+
+body {
+    background-color: #dae1e7;
+}
+
+hr {
+    color: #687480; 
+    border-style: none; 
+    border-top-style: 
+    dotted; border-width: 5px; 
+    width: 5%;
+}
+
+img {
+    height: 500px;
+}
+
+td {
+    padding: 7px;
+}
