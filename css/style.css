@@ -1,3 +1,8 @@
+
+/*When it comes to selectors id > class > tag*/
+
+/*****Tag selectors*****/
+
 h1 {
     color: #27496d;
     font: outline;
@@ -23,10 +28,39 @@ hr {
     width: 5%;
 }
 
-img {
-    height: 500px;
-}
-
 td {
     padding: 7px;
+}
+
+/*Any class that starts with a : is a pseudo class and these impact the element when the state has changed exmaple
+when clicked, or when hovered over*/
+img:hover {
+    background-color: #27496d;
+}
+
+/*****Class selectors*****/
+
+.firstP {
+    color: red;
+}
+
+.font_class {
+    font-family: fantasy;
+}
+
+/*****ID selectors*****/
+
+#get_name {
+    border-color: darkslategray;
+    border-width: 2px;
+}
+
+#get_email {
+    border-color: dodgerblue;
+    border-width: 2px;
+}
+
+#get_message {
+    color: #27496d;
+    font-weight: bolder;
 }
